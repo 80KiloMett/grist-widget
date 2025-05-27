@@ -171,6 +171,7 @@ ready(() => {
         minHeight: '0px',
         toolbar: editable ? toolbar : false,
       });
+      txt.marked.use(markedKatex())
       if (editable) {
         dom.update(document.querySelector(".edit-action"), dom.hide(isEditMode));
         dom.update(document.querySelector(".save-action"), dom.show(isEditMode));
