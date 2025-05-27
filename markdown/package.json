@@ -1,13 +1,13 @@
 {
   "name": "@gristlabs/widget-markdown",
   "description": "Markdown preview.",
-  "homePage": "https://github.com/gristlabs/grist-widget",
+  "homePage": "https://github.com/80KiloMett/grist-widget",
   "version": "0.0.1",
   "grist": {
-    "name": "Markdown",
-    "url": "https://gristlabs.github.io/grist-widget/markdown",
-    "widgetId": "@gristlabs/widget-markdown",
-    "published": true,
+    "name": "Markdown with math",
+    "url": "https://github.com/80KiloMett/grist-widget/raw/refs/heads/master/markdown",
+    "widgetId": "@80KiloMett/widget-markdown-math",
+    "published": false,
     "accessLevel": "full",
     "renderAfterReady": true,
     "description": "View and format a record's text using Markdown syntax.",
@@ -15,8 +15,12 @@
       {
         "name": "Grist Labs",
         "url": "https://github.com/gristlabs"
+      },
+      {
+        "name": "80KiloMett",
+        "url": "https://github.com/80KiloMett"
       }
     ],
-    "isGristLabsMaintained": true
+    "isGristLabsMaintained": false
   }
 }
